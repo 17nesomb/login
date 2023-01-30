@@ -1,16 +1,30 @@
 ﻿body
 {
     background:#0094ff;
-    font-family 
 }
 
-#password{
-    text-align:right;
-}
-h1{
-    background
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
-#logo{
-    
+#username {
+    text-align: center;
+    font-size: 2em;
+    border: solid black 3px;
+}
+#password {
+    text-align: center;
+    font-size: 3em;
+    border: solid black 3px;
+}
+
+#logo {
+    width: 6em;
+    text-align: center;
+}
+
+#hints{
+    font-size:2em;
 }

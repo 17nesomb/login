@@ -9,29 +9,35 @@
 <body>
 
     <h1>Login to InstaOunce</h1>
-    <img src="Logo.Png" id="logo" />
+    <div  class="center">
+        <img src="Logo.Png" id="logo"/>
+    </div>
     <div>
 
         <div>
             <label for="username">
                 Username:
-                <input class ="inputs" type="text" name="username" />
+                <input class ="inputs" type="text" name="username" id="username" />
             </label>
         </div>
         
-        <div id="Password">
-            <label for="password">
+        <div >
+            <label for="password" >
                 Password:
-                <input class ="inputs" type="password" name="password" />
+                <input class ="inputs" type="password" name="password" id="password"/>
             </label>
         </div>
 
-        <div>
-            <button> Login </button>
+        <div id="buttons">
+            <p class="center" id="hints">Welcome to InstaOunce</p>
+            <button onclick="login();"> Login </button>
+            <button onclick="reset();">Reset the password</button>
+            <button onclick="create();">Create and acount</button>
         </div>
 
 
     </div>
+    <script src="lib.js"></script>
 
 </body>
 </html>
