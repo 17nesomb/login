@@ -15,7 +15,7 @@ function login() {
     try {
         presenceCheck(username, "Enter something (your username) fool");
         presenceCheck(password, "PASSWORD FOOL");
-        lengthCheck(password, 5, 10, "please enter a password between 5 and 10 characters");
+        lengthCheck(password, 5, 15, "please enter a password between 5 and 15 characters");
         eHints.innerText = "";
     } catch (e) {
         eHints.innerText = e;
